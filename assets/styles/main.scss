@@ -1,0 +1,27 @@
+/**
+ * Main CSS File
+ * Merges all .scss files before they're processed by gulp
+ * included external sources: Bower, Normalize
+ *
+ * @author      Flurin Dürst
+ * @version     1.3
+ * @since       WPSeed 0.1
+ *
+ */
+
+
+@charset 'UTF-8';
+
+/* VARS/FUNCTIONS
+/===================================================== */
+@import 'vars';
+@import 'essentials';
+
+/* STYLES
+/===================================================== */
+// bower:scss
+@import "../../bower_components/css-hamburgers/_sass/hamburgers/hamburgers.scss";
+// endbower
+@import 'general';
+@import 'content';
+@import 'nav';
